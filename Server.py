@@ -52,7 +52,7 @@ def spawn_player(pid):
 
 @app.route("/")
 def index():
-    return "Hill Climb Racing server running."
+    return "Offroad Racing server running."
 
 @socketio.on('connect')
 def handle_connect():
